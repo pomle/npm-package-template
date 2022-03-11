@@ -7,3 +7,11 @@ Commands
 - `yarn run lint`
 - `yarn run test`
 - `yarn run build`
+
+## Publishing
+
+Create `.npmrc` in root to start publishing.
+
+```
+registry=https://registry.npmjs.org
+```
