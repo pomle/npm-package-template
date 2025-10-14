@@ -14,7 +14,7 @@
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
   "engines": {
-    "node": ">=10"
+    "node": ">=20"
   },
   "scripts": {
     "build": "microbundle --jsx React.createElement",
