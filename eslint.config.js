@@ -28,13 +28,6 @@ export default defineConfig([
     },
     rules: {
       'prettier/prettier': 'error',
-      'space-before-function-paren': 'off',
-      'react/prop-types': 'off',
-      'react/jsx-handler-names': 'off',
-      'react/jsx-fragments': 'off',
-      'react/no-unused-prop-types': 'off',
-      'no-unused-vars': 'off',
-      'no-use-before-define': 'off',
     },
     ignores: ['build/', 'dist/', 'node_modules/', '.snapshots/', '*.min.js'],
   },
